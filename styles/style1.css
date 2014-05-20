@@ -3,7 +3,7 @@ body {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 0.8em;
 	color: #000;
-	background-color: #abc;
+	background-color: #d6e9ef;
 }
 #container {
 	width: 846px;
@@ -19,7 +19,7 @@ body {
 	margin-bottom: 0;
 	margin-left: 10px;
 	overflow: auto;
-	background-color: #bde;
+	background-color: #d6e9ef;
 }
 #sidebar {
 	float: left;
@@ -39,6 +39,7 @@ body {
 	padding: 10px;
 	background-color: #fff;
 	position: relative;
+	font-family: "Comic Sans MS";
 }
 #footer {
 	text-align: center;
