@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title>Flash Media Player</title>
+	<script type="text/javascript" src="../js/swfobject.js"></script>
+</head>
+<body style="margin:0; padding: 0;">
+<div id="player"></div>
+<script type="text/javascript">
+  var so = new SWFObject("flvplayer.swf", "VideoPlayback", "100%", "100%", "7");
+  so.addParam("FlashVars","fullscreenmode=true&showfsbutton=false&autostart=true");
+  so.addParam("scale","noScale");
+  so.addParam("wmode","window");
+  so.write("player");
+</script>
+</body>
+</html>

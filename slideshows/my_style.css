@@ -1,0 +1,17 @@
+/*******************
+  Copyright (c) 2004-20013 TinyWebGallery
+  written by Michael Dempfle
+********************/
+/*
+This is the stylesheet where you can do your personal settings - 
+You find the most important settings to adapt the colors of your gallery! 
+
+I recommend not to modify the style.css because if I upgrade you can still
+use your stylesheet! copy the stuff you change into this css. The settings
+in this file overwrite the default settings!
+Remove this file if you don't use it because otherwise its transfered to the server!
+
+
+I recommend to use the color manager in he backend to get a first draft.
+This will be saved in this file! Then you can start from there!
+*/

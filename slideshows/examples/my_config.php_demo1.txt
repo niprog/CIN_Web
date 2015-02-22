@@ -1,0 +1,65 @@
+<?php
+/*************************  
+  Copyright (c) 2004-2014 TinyWebGallery
+  written by Michael Dempfle
+ 
+  This program is free software; you can redistribute it and/or modify 
+  it under the terms of the TinyWebGallery license (based on the GNU  
+  General Public License as published by the Free Software Foundation;  
+  either version 2 of the License, or (at your option) any later version. 
+  See license.txt for details.
+ 
+  TWG version: 2.2
+ 
+  $Date: 2009-06-17 22:57:10 +0200 (Mi, 17 Jun 2009) $
+  $Revision: 73 $
+**********************************************/
+
+/*
+This is your configuration file of demo 1! I recommend to store your changes to the default
+in this file! This makes it easier to update to one of the next versions of TWG!
+*/
+
+$skin='admin';
+$default_language = "de";
+$basedir = "../pictures"; 
+$resize_only_if_too_big=true;
+$menu_pic_size_y = 120;
+$image_txt_position="side";
+$folder_effect="change"; 
+$show_rating_security_image=true;
+$topx_default="comments";
+$autodetect_filenames_as_captions_number=5;
+$print_watermark = true; 
+$print_watermark_original=true; 
+$position=7; 
+$show_tips_overview_once=true; 
+$show_tips_thumb_once=true; 
+$show_tips_image_once=true;
+$show_email_notification = false;
+$cache_dirs = false;
+$show_comments_menue=true;
+
+$activate_lightbox_thumb=true;
+  $activate_lightbox_thumb_full=false;
+$activate_lightbox_topx=true;
+  $activate_lightbox_topx_full=false;
+$activate_lightbox_image=false;    
+
+$cache_dirs = true; 
+$show_twg_logo_if_registered=true;
+$menu_x = 2; 
+$menu_y = 2;
+$serialize_dir_data=true;
+
+$GLOBALS["DEBUG_CACHE"] = "TRUE";
+$enable_enhanced_debug=true;
+$support_piclens=true;
+
+$show_print_icon=true;
+$cache_time=3;
+
+$enable_basic_seo=true;
+$twg_mobile_menu_y = 2;
+
+?>

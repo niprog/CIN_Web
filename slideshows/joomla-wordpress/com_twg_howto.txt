@@ -1,0 +1,8 @@
+If you want to use TWG as component please use the wrapper that comes with Joomla.
+Just link to your TWG installation there ;).
+
+Go to menu->new->wrapper
+
+Have fun using TWG
+
+/Michael

@@ -1,0 +1,84 @@
+/* modify the sizes if you use a different image */
+.twg-inline-rating {display:block;vertical-align:middle;line-height:25px;}
+.twg-rating {height:25px;width:175px;float:left;}
+.twg-rating,
+.twg-rating a:hover,
+.twg-rating .current-rating {background:url(star.gif) left -1000px repeat-x;}
+.twg-rating {position:relative;width:125px;height:25px;overflow:hidden;list-style:none;margin:0;padding:0;background-position:left top;}
+.twg-rating a,
+.twg-rating .current-rating {position:absolute;top:0;left:0;text-indent:-1000px;height:25px;line-height:25px;outline:none;overflow:hidden;border:none;cursor:pointer;}
+/* global settings for the voting */
+.twg-rating li {display:inline;background-image:none;padding:0;}
+.twg-rating a:hover {background-position:left bottom;}
+.twg-rating a.one {width:20%;z-index:6;}
+.twg-rating a.two {width:40%;z-index:5;}
+.twg-rating a.three {width:60%;z-index:4;}
+.twg-rating a.four {width:80%;z-index:3;}
+.twg-rating a.five {width:100%;z-index:2;}
+.twg-rating .current-rating {z-index:1;background-position:0 center;margin:0;padding:0;}
+.twg-box {margin:0 0 0 2px;padding:0;float:left;}
+.twg-clr {clear:both;}
+
+#closebutton { width:20px;height:20px;}
+#slideshow, #print, #topend, #stop_slideshow, #topnext, #topthumb, #topback, #topfirst, #stop_slideshow_img { height:43px; margin:2px; margin-bottom:0px;}
+
+.twg_buttons { 
+    background-image     : url(buttons.png); 
+    background-color     : transparent; 
+    background-repeat    : no-repeat; 
+    height : 39px; 
+    width : 40px;
+ }
+
+.back_gif { height : 64px; width : 16px; background-position : -0px -0px; } 
+a:hover img.back_gif { height : 64px; width : 16px; background-position : -16px -0px; } 
+.guzs_normal_gif { height : 64px; width : 64px; background-position : -32px -0px; } 
+.iuzs_normal_gif { height : 64px; width : 64px; background-position : -96px -0px; } 
+.menu_first_gif { background-position : -160px -0px; } 
+a:hover img.menu_first_gif { background-position : -200px -0px; } 
+.menu_home_gif { background-position : -240px -0px; } 
+.menu_last_gif { background-position : -280px -0px; } 
+a:hover img.menu_last_gif { background-position : -320px -0px; } 
+.menu_left_gif { background-position : -360px -0px; } 
+a:hover img.menu_left_gif { background-position : -400px -0px; } 
+.menu_right_gif { background-position : -440px -0px; } 
+a:hover img.menu_right_gif { background-position : -480px -0px; } 
+.menu_start_gif { background-position : -520px -0px; } 
+a:hover img.menu_start_gif { background-position : -560px -0px; } 
+.menu_stop_gif { background-position : -600px -0px; } 
+a:hover img.menu_stop_gif { background-position : -640px -0px; } 
+.menu_up_gif { background-position : -680px -0px; } 
+a:hover img.menu_up_gif { background-position : -720px -0px; } 
+.next_gif { height : 64px; width : 16px; background-position : -760px -0px; } 
+a:hover img.next_gif { height : 64px; width : 16px; background-position : -776px -0px; } 
+.print_gif { height:0px;width:0px;background-position : -0px -0px; } 
+a:hover img.print_gif { height:0px;width:0px;background-position : -0px -0px; } 
+
+
+/* Fullscreen images! */
+.fs_sprites{
+background-image:url(../../fullscreen.png);
+background-color:transparent;
+background-repeat:no-repeat;
+height:39px;
+width:40px;
+border: none;
+}
+a:hover img.menu_first_full_gif{background-position: -0px -0px;}
+.menu_first_full_gif{background-position:-40px -0px;}
+a:hover img.menu_last_full_gif{background-position:-80px -0px;}
+.menu_last_full_gif{background-position:-120px -0px;}
+.menu_close_full_gif{background-position:-160px -0px;}
+a:hover img.menu_close_full_gif{background-position:-200px -0px;}
+a:hover img.menu_left_full_gif{background-position:-240px -0px;}
+.menu_right_full_gif{background-position:-280px -0px;}
+.menu_left_full_gif{background-position:-320px -0px;}
+.menu_start_full_gif{background-position:-360px -0px;}
+a:hover img.menu_start_full_gif{height:39px;width:40px;background-position:-400px -0px;}
+.menu_stop_full_gif{background-position:-440px -0px;}
+a:hover img.menu_right_full_gif{background-position:-480px -0px;}
+a:hover img.menu_stop_full_gif{background-position:-520px -0px;}
+
+td.topnav {
+padding-top:5px;
+}

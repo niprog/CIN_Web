@@ -31,20 +31,31 @@
 	<!-- Begin Page Content -->
 	<div id="page_content">
 		<!-- Begin Sidebar -->
-		<div id="sidebar" style="left: 0px; top: 0px; height: 237px">
+		<div id="sidebar" style="left: 0px; top: 0px; height: 80%">
 			<ul>
 				<li><a href="default.html">Home</a></li>
 				<li><a href="about/default.html">About Us</a></li>
 				<li><a href="HowToHelp/default.html">How to Help</a></li>
-				<li><a href="news/default.html">News</a></li>
+				<li><a href="health/default.html">Health</a></li>
 				<li><a href="SuccessStories/default.html">Success Stories</a></li>
-				<li><a href="events/default.html">Events</a></li>
+				<li><a href="contact_us/default.html">Contact Us</a></li>
 				<li><a href="photo_gallery/default.html">Photos/Videos</a></li>	
 				<li><a href="links/default.html">Links</a></li>
-			</ul>
+			</ul> 
+			<center>
+			<br/>		
+			<img alt="Facebook Logo" height="46" src="images/facebook.gif" style="float: none" width="47" onclick="window.open('https://www.facebook.com/groups/135548886644208/');"/>
+			<br/>			
+			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick"/>
+			<input type="hidden" name="hosted_button_id" value="DS6PQMFFMDUGN"/>
+			<input type="image"  src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online." height="42" width="150"/>
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1"/>
+			</form>
+			</center>
 			
 		</div>
-		<!-- End Sidebar -->
+				<!-- End Sidebar -->
 		<!-- Begin Content -->
 		<div id="content">
 		<table cellpadding="10px">
@@ -59,21 +70,17 @@
 			</div>
 			
 		<!-- End Content --></div>
-			<center>
-			<a href="https://www.facebook.com/groups/135548886644208/"><img alt="Facebook Logo" height="46" src="images/facebook.gif" style="float: none" width="47" /></a>
-			<br/>
-			<img src="images/donate.jpg" width="140" />
-			</center>
 
 		
 	<!-- End Page Content -->
 	<!-- Begin Footer -->
 	<div id="footer">
 		<p>
-		<a href="default.html">Home</a> | <a href="about/default.html">About</a> 
-		| <a href="events/default.html">Events</a> |
+		<a href="default.html">Home</a> | 
+		<a href="about/default.html">About</a> |
+		<a href="contact_us/default.html">Contact Us</a> | 
 		<a href="links/default.html">Links</a><br />
-		<a href="news/default.html">News</a> |
+		<a href="health/default.html">Health</a> |
 		<a href="photo_gallery/default.html">Photo Gallery</a> |
 		<a href="HowToHelp/default.html">How to Help</a> | 
 		<a href="SuccessStories/default.html">Success Stories</a><br />

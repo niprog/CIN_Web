@@ -1,0 +1,27 @@
+.sprites_dtree { 
+    background-image     : url('../dtree/dtree.gif'); 
+    background-color     : transparent; 
+    background-repeat    : no-repeat; 
+ } 
+.dtree-base{ background-position: 0 0; width: 18px; height: 20px; } 
+.dtree-border{ background-position: -19px 0; width: 1px; height: 20px; } 
+.dtree-bordersel{ background-position: -21px 0; width: 1px; height: 23px; } 
+.dtree-empty{ background-position: -23px 0; width: 18px; height: 18px; } 
+.dtree-folder{ background-position: -42px 0; width: 18px; height: 18px; } 
+.dtree-folder_leaf{ background-position: -61px 0; width: 18px; height: 18px; } 
+.dtree-folder_lock{ background-position: -80px 0; width: 18px; height: 18px; } 
+.dtree-folder_unlock{ background-position: -99px 0; width: 18px; height: 18px; } 
+.dtree-folderopen{ background-position: -118px 0; width: 18px; height: 18px; } 
+.dtree-folderopen_lock{ background-position: -137px 0; width: 18px; height: 18px; } 
+.dtree-folderopen_unlock{ background-position: -156px 0; width: 18px; height: 18px; } 
+.dtree-imgfolder{ background-position: -175px 0; width: 18px; height: 18px; } 
+.dtree-join{ background-position: -194px 0; width: 18px; height: 20px; } 
+.dtree-joinbottom{ background-position: -213px 0; width: 18px; height: 20px; } 
+.dtree-line{ background-position: -232px 0; width: 18px; height: 20px; } 
+.dtree-minus{ background-position: -251px 0; width: 18px; height: 20px; } 
+.dtree-minusbottom{ background-position: -270px 0; width: 18px; height: 18px; } 
+.dtree-nolines_minus{ background-position: -289px 0; width: 18px; height: 18px; } 
+.dtree-nolines_plus{ background-position: -308px 0; width: 18px; height: 18px; } 
+.dtree-page{ background-position: -327px 0; width: 18px; height: 18px; } 
+.dtree-plus{ background-position: -346px 0; width: 18px; height: 20px; } 
+.dtree-plusbottom{ background-position: -365px 0; width: 18px; height: 18px; } 

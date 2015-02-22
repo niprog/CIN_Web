@@ -1,0 +1,53 @@
+/*******************
+  Copyright (c) 2004-2014 TinyWebGallery
+  written by Michael Dempfle
+  TWG version: 2.2
+********************/
+
+body.twg{background-color:#fff;color:#000000;}
+table.twg{color:#000000;}
+a:link{color:#000000;}
+a:visited{color:#000000;}
+a:hover{color:#444444;}
+/* If you use an background image this hover settings could create ugly borders! Delete them if you don't like them */
+td.navicon a img{border:1px solid #f1f1f1;}
+td.html_side_default a img{border:1px solid #f1f1f1;}
+td.html_side_left a img{border:1px solid #f1f1f1;}
+td.html_side_right a img{border:1px solid #f1f1f1;}
+td.sideframe{background-color:#ffffff;}
+td.twg_info{border:1px solid #cccccc; background-color:#ffffff;}
+.twg_title{color:#000000;}
+.twg_folderdescription{color:#000000;}
+.twg_Caption{color:#000000;}
+.twg_user_help_td{color:#000000;}
+.twg_topx_selected{color:#000000;}
+.twg_topx_sel{color:#000000;}
+.twg_topx_sel a:link{color:#000000;}
+.twg_topx_sel a:visited{color:#000000;}
+.twg_topx_sel a:hover{color:#444444;}
+td.topnavleft{background-color:#ffffff;color:#000000;}
+td.topnavleft a:link{color:#000000;}
+td.topnavleft a:visited{color:#000000;}
+td.topnavleft a:hover{color:#444444;}
+td.topnav{background-color:#ffffff;}
+td.topnavright{background-color:#ffffff;color:#000000;}
+td.topnavright a:link{color:#000000;}
+td.topnavright a:visited{color:#000000;}
+td.topnavright a:hover{color:#444444;}
+td.bottomtablesideleft{background-color:#ffffff;color:#000000;}
+td.bottomtablesideleft a:link{color:#000000;}
+td.bottomtablesideleft a:visited{color:#000000;}
+td.bottomtablesideleft a:hover{color:#444444;}
+td.bottomtable{background-color:#ffffff;}
+td.twg_bottom{background-color:#ffffff;}
+td.twg_counterpixel{background-color:#ffffff;}
+td.bottomtableside{background-color:#ffffff;color:#000000;}
+td.html_side_default a img{border:1px solid #cccccc;}
+td.bottomtableside a:link{color:#000000;}
+td.bottomtableside a:visited{color:#000000;}
+td.bottomtableside a:hover{color:#444444;}
+td.thumbnails{background:url(../buttons/shadowalpha_thumb.png)   no-repeat bottom right;background:url(../buttons/shadow_thumb.gif) no-repeat bottom right;}
+/* does the drop shadow for detail image div.twg_img-shadow table{display:block;position:relative;padding:0;margin:-7px 7px 7px -7px;}
+div.twg_img-shadow{float:left;background:url(../buttons/shadowalpha.png) no-repeat bottom right !important;background:url(../buttons/shadow.gif) no-repeat bottom right;margin:10px 0px 0px 5px !important;margin:10px 0px 0px 5px;}
+*/
+#twg_content_div{border: 1px solid #cccccc;background-color:#ffffff;}

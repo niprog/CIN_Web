@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+
+<script type="text/javascript">
+ // Add a script element as a child of the body
+ function downloadJSAtOnload() {
+  var element = document.createElement("script");
+  element.src = "iframe.js";
+  document.body.appendChild(element);
+ }
+  
+ // Check for browser support of event handling capability
+ if (window.addEventListener)
+ window.addEventListener("load", downloadJSAtOnload, false);
+ else if (window.attachEvent)
+ window.attachEvent("onload", downloadJSAtOnload);
+ else window.onload = downloadJSAtOnload;
+
+window.setTimeout("hide_twg();",3000);
+window.setTimeout("hide_twg();",5000);
+window.setTimeout("hide_twg();",7000);
+</script>
+</body>
+</html>

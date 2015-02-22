@@ -1,0 +1,10 @@
+02.14.2015 18:24:33 (en) - ERROR 8 in tml/slideshows/inc/filefunctions.inc.php, line 1728: Undefined offset: 1
+02.15.2015 10:20:34 (en) - ERROR 2 in tml/slideshows/inc/filefunctions.inc.php, line 1729: mktime() expects parameter 5 to be long, string given
+02.16.2015 3:53:19 (en) - ERROR 2 in tml/slideshows/inc/filefunctions.inc.php, line 1729: mktime() expects parameter 5 to be long, string given
+02.17.2015 12:20:34 (en) - ERROR 2 in tml/slideshows/inc/filefunctions.inc.php, line 1729: mktime() expects parameter 5 to be long, string given
+02.18.2015 10:27:43 (en) - ERROR 2 in tml/slideshows/inc/filefunctions.inc.php, line 1729: mktime() expects parameter 5 to be long, string given
+02.19.2015 0:10:36 (en) - ERROR 2 in tml/slideshows/inc/filefunctions.inc.php, line 1729: mktime() expects parameter 5 to be long, string given
+02.20.2015 17:50:16 (en) - ERROR 2 in tml/slideshows/inc/filefunctions.inc.php, line 1729: mktime() expects parameter 5 to be long, string given
+02.20.2015 18:35:38 (en) - ERROR 2 in tml/slideshows/inc/filefunctions.inc.php, line 1729: mktime() expects parameter 5 to be long, string given
+02.21.2015 9:57:45 (en) - ERROR 2 in tml/slideshows/inc/filefunctions.inc.php, line 1729: mktime() expects parameter 5 to be long, string given
+02.22.2015 11:21:28 (en) - ERROR 2 in tml/slideshows/inc/filefunctions.inc.php, line 1729: mktime() expects parameter 5 to be long, string given

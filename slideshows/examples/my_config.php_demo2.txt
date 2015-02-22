@@ -1,0 +1,91 @@
+<?php
+/*************************  
+  Copyright (c) 2004-2014 TinyWebGallery
+  written by Michael Dempfle
+ 
+  This program is free software; you can redistribute it and/or modify 
+  it under the terms of the TinyWebGallery license (based on the GNU  
+  General Public License as published by the Free Software Foundation;  
+  either version 2 of the License, or (at your option) any later version. 
+  See license.txt for details.
+ 
+  TWG version: 2.2
+ 
+  $Date: 2009-06-17 22:57:10 +0200 (Mi, 17 Jun 2009) $
+  $Revision: 73 $
+**********************************************/
+
+/*
+This is your configuration file! I recommend to store your changes to the default
+in this file! This makes it easier to update to one of the next versions of TWG!
+*/
+
+/* This are 2 examples for your settings ! 
+$browser_title_prefix="TinyWebGallery";
+$default_gallery_title="Welcome to the TWG";
+*/
+$default_language = "de";
+$iframe_include=true;
+$basedir = "../pictures2";
+$autodetect_maximum_thumbnails=false; 
+$thumbnails_x = 5; 
+$thumbnails_y = 3; 
+$resize_only_if_too_big=true;
+$use_small_pic_size_as_height=false; 
+$menu_pic_size_y = 90;
+$show_clipped_images=false;
+$show_colage = false;
+$show_languages_as_dropdown=false;
+$default_big_navigation="HTML"; 
+$numberofpics=3;  
+$numberofpics_html_side = 3;
+$show_comments = false;
+$show_enter_comment_at_bottom=false;
+$show_comments_in_layer=false;
+$show_login = false;
+$show_new_window = false;
+$enable_download = false;
+$show_rotation_buttons=false; 
+$show_big_left_right_buttons=true; 
+$enable_counter=false; 
+$show_counter=false;
+$show_help_link=false; 
+$show_first_last_buttons=false;
+$show_image_rating=false;      
+$show_rating_security_image=true;
+$enable_download_as_zip=false;	
+$show_enhanced_file_infos=false;
+$show_exif_info=false;
+$show_topx=false;
+$show_public_admin_link=false;
+$preselect_filenames_search=false;
+$show_topx_search_details = true;
+$autodetect_filenames_as_captions=false;
+$center_cmotiongal_over_image=false; 
+$show_tags = false;
+// watermarks
+$print_text=true;
+$print_text_original=true; 
+$print_watermark = false;
+$print_watermark_original=false;
+
+// tips
+$show_tips_overview_once=true;         
+$show_tips_thumb_once=true;  
+$show_tips_image=false; 
+$cache_dirs = true;
+$resize_folder_gif=false;
+$show_twg_logo_if_registered=true;
+$serialize_dir_data=true;
+
+$show_border='FALSE';
+
+$GLOBALS["DEBUG_CACHE"] = "TRUE";
+$enable_enhanced_debug=true;
+$support_piclens=true;
+
+$use_js_call_external_thumb_flash = true;
+
+$enable_basic_seo=true;
+
+?>

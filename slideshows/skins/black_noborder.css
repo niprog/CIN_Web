@@ -1,0 +1,14 @@
+/*******************
+  Copyright (c) 2004-2014 TinyWebGallery
+  written by Michael Dempfle
+  TWG version: 2.2
+********************/
+
+/* this file is used when a skin defines some borders that should be different when no border is used. */
+td.twg_info{border:none;border-top:2px solid;}
+#twg_content_div{border:none;}
+td.bottomtable{background-color:transparent;}
+td.twg_bottom{background-color:#444444;}
+td.twg_counterpixel{background-color:#444444;}
+td.bottomtablesideleft{background-color:transparent;}
+td.bottomtableside{background-color:transparent;}

@@ -1,0 +1,20 @@
+/*******************
+  Copyright (c) 2004-20014 TinyWebGallery
+  written by Michael Dempfle
+  TWG version: 2.2
+********************/
+/*
+This css has all the styles for mobile screens. A mobile screen 
+is something below 500 px! If you want to edit the style 
+please overwrite the settings here by using the mystyle.css 
+Make sure to use the 
+@media all and (max-width:500px) {
+}
+in my_style.css as well.
+*/
+/** example for media queries */ 
+@media all and (max-width:500px) {
+   .twg_title {
+     
+   }
+}

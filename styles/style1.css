@@ -1,115 +1,115 @@
-﻿@import url("layout.css");
-body {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 0.8em;
-	color: #000;
-	background-color: #F0F7F9;
-}
-#container {
-	width: 836px;
-	margin: 0 auto;
-	background-image: url("../images/msfp_smbus2_01.gif");
-	background-repeat: repeat-y;
-	background-attachment: scroll;
-}
-#masthead {
-	margin: 0 0px 0 10px;
-	width: 816px;
-	overflow: auto;
-	background-color: #689;
-}
-#sidebar {
-	float: left;
-	width: 150px;
-	background-color: #689;
-	position: relative;
-	clear: both;
-	margin-left: 10px;
-	display: inline;
-	padding-left: 5px;
-}
-#content {
-	float: right;
-	width: 651px;
-	margin-top: 0;
-	margin-right: 15px;
-	background-color: #fff;
-	position: relative;
-	font-family: "Comic Sans MS";
-	padding-top: 5px;
-	padding-bottom: 0px;
-}
-#footer {
-	text-align: center;
-	clear: both;
-	width: 816px;
-	margin-right: 10px;
-	margin-left: 10px;
-	padding: 0;
-	overflow: auto;
-	background-color: #689;
-}
-#masthead img {
-	float: left;
-	padding-top: 5px;
-	padding-left: 5px;
-	padding-bottom: 5px;
-}
-#masthead p {
-	font-size: 0.8em;
-	text-align: right;
-	margin-top: 10px;
-	margin-right: 10px;
-}
-/* Styles for Navigation */
-#sidebar ul {
-	list-style-type: none;
-	width: 100%;
-	display: block;
-	margin: 0;
-	padding: 0;
-	background-color: #d6e9ef;
-}
-#sidebar li {
-	font-size: 0.9em;
-	display: block;
-	margin: 0;
-	padding: 0;
-	border: 1px solid #d3d3d3;
-}
-#sidebar a {
-	font-weight: bold;
-	text-decoration: none;
-	color: #118;
-	display: block;
-	padding: 5px;
-	border-bottom: 1px solid #f2f2f2;
-}
-#sidebar a:hover {
-	font-weight: bold;
-	text-decoration: none;
-	color: #118;
-	border-bottom: 1px solid #f2f2f2;
-	background-color: #f2f2f2;
-}
-/* Styles for Footer */
-#footer p {
-	font-size: 0.8em;
-	color: #fff;
-	margin: 2px;
-	padding: 2px;
-}
-#footer a {
-	color: #fff;
-	text-decoration: underline;
-}
-#footer a:hover {
-	color: #fff;
-	text-decoration: none;
-}
-.style_bold {
-	font-weight: bold;
-}
-.style_italic {
-	font-style: italic;
+﻿@import url("layout.css");
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #000;
+	background-color: #F0F7F9;
+}
+#container {
+	width: 836px;
+	margin: 0 auto;
+	background-image: url("../images/msfp_smbus2_01.gif");
+	background-repeat: repeat-y;
+	background-attachment: scroll;
+}
+#masthead {
+	margin: 0 0px 0 10px;
+	width: 816px;
+	overflow: auto;
+	background-color: #689;
+}
+#sidebar {
+	float: left;
+	width: 150px;
+	background-color: #689;
+	position: relative;
+	clear: both;
+	margin-left: 10px;
+	display: inline;
+	padding-left: 5px;
+}
+#content {
+	float: right;
+	width: 651px;
+	margin-top: 0;
+	margin-right: 15px;
+	background-color: #fff;
+	position: relative;
+	font-family: "Comic Sans MS";
+	padding-top: 5px;
+	padding-bottom: 0px;
+}
+#footer {
+	text-align: center;
+	clear: both;
+	width: 816px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 0;
+	overflow: auto;
+	background-color: #689;
+}
+#masthead img {
+	float: left;
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+}
+#masthead p {
+	font-size: 0.8em;
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+/* Styles for Navigation */
+#sidebar ul {
+	list-style-type: none;
+	width: 100%;
+	display: block;
+	margin: 0;
+	padding: 0;
+	background-color: #d6e9ef;
+}
+#sidebar li {
+	font-size: 0.9em;
+	display: block;
+	margin: 0;
+	padding: 0;
+	border: 1px solid #d3d3d3;
+}
+#sidebar a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #118;
+	display: block;
+	padding: 5px;
+	border-bottom: 1px solid #f2f2f2;
+}
+#sidebar a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	color: #118;
+	border-bottom: 1px solid #f2f2f2;
+	background-color: #f2f2f2;
+}
+/* Styles for Footer */
+#footer p {
+	font-size: 0.8em;
+	color: #fff;
+	margin: 2px;
+	padding: 2px;
+}
+#footer a {
+	color: #fff;
+	text-decoration: underline;
+}
+#footer a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.style_bold {
+	font-weight: bold;
+}
+.style_italic {
+	font-style: italic;
 }

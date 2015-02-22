@@ -1,0 +1,8 @@
+#overlay{
+	filter:alpha(opacity=60);
+	}
+
+* html>body .clearfix {
+	display: inline-block; 
+	}
+	

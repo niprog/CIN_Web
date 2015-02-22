@@ -1,0 +1,1 @@
+<?php $_SESSION["count_treecpictures/CIN_Photos"] = 5;$_SESSION["count_treecpictures"] = 5; ?>

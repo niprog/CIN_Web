@@ -1,0 +1,27 @@
+/*******************
+  Copyright (c) 2004-2014 TinyWebGallery
+  written by Michael Dempfle
+  TWG version: 2.2
+********************/
+/*
+This css has all the default IE !! here are only the part that have to change 
+from the default style.css that works for ff, opera and Safari without changes ! 
+*/
+body.twg{display:inline;  background-color:transparent;}
+body.twg-no-comp{ margin:0; padding:0; background-color:transparent;}
+div.twg_img-shadow{float:left;}
+/* layer for fullscreen - you can use bottom instead of top but sometimes the 
+   layer then disapears because of an error in js!*/
+.twg_fullscreencontrol{filter:alpha(opacity=80);   background-color:#AAAAAA;}
+/* the next  entrie is because ie does ignore the transparent css!you have to set 
+   this to your background color or to none if you use a background image and don't want ugly borders*/
+td.navicon a img{border:none;margin-top:7px;margin-bottom:7px;}
+.imagealpha{filter:alpha(opacity=40);}
+.imagefull{filter:alpha(opacity=90);}
+div.private{filter:Alpha(opacity:95);}
+
+div.mainnav-float, div.thumbpage-float {
+  *display: inline; /* leading asterisk IS correct */
+  zoom: 1; /* seems to fix drawing bug on border in IE 7 */
+}
+

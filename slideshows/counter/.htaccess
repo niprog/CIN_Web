@@ -1,0 +1,5 @@
+# disables the access to files that should not be public
+<FilesMatch "\.(txt|xml|log)$">   
+  Order deny,allow
+  Deny from all
+</FilesMatch>

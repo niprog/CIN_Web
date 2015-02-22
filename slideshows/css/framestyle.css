@@ -1,0 +1,40 @@
+/*******************
+  Copyright (c) 2004-2014 TinyWebGallery
+  written by Michael Dempfle
+  TWG version: 2.2
+********************/
+
+/* changes the colors an the size of the border - please edit if you want to change the color !! */
+td.sideframe {
+	width: 20px;
+	background-color: #f3f3f3;
+}
+/* don't use border inset because this has a performance problem in FF3! */
+td.twg_info {
+	border: 1px solid #555555;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+  background-color: #f3f3f3;
+}
+td.bottomtable {
+	background-color: #f3f3f3;
+}
+td.bottomtableside {
+	background-color: #f3f3f3;
+}
+td.bottomtablesideleft {
+	background-color: #f3f3f3;
+}
+td.twg_bottom {
+	background-color: #f3f3f3;
+}
+td.twg_counterpixel {
+	background-color: #f3f3f3;
+}
+
+#twg_content_div {
+  border: 1px solid #555555;
+	border-right: 1px solid #999999;
+	border-bottom: 1px solid #999999;
+  background-color: #ffffff;
+}

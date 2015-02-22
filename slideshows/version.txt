@@ -1,0 +1,100 @@
+TWG version 2.2
+
+Here you find a small history of small bugfixes where I don't release a new release.
+If you want to update I recommend to overwrite all files except your settings in
+my_config.php, my_style.css and admin/_config/.htusers.php and your pictures dir of course.
+Check the history for a full list of changes: http://www.tinywebgallery.com/history.htm
+
+If you need an urgent fix of something - There is always a way to speed things up ;)
+
+2.2
+New: TWG goes responsive. Main, thumbnail and detailpages are responsive now. See the new howto 57 how to use this. This feature is available for registered users.
+New: Support for HTML5 videos! See the updated howto 34.
+New: Sorting mixed folders does now ignore v___. So sorting is not needed anymore only because of the video prefix.
+New: New html mode selector images.
+New: You can now set $use_manual_port if you are behind a proxy with a different port. 
+New: Additional media queries where added to improve support for mobile devices.
+New: Optimization for ipad and iphone in horizontal mode.
+New: Album and folder description use the dotdotdot jQuery plugin which cuts text with ... if they cannot displayed anymore because of the screen size. See the first page of the ajax demo and reduche the browser size until you see the ... ;).
+New: Updated jQuery to 1.11.1
+New: On smart phones the autodetect of thumbnails is disbled if the responsive mode is enabled on the thumb page because this can cause exteme big paginations.
+New: On browser resize the new size is sent right away. So at the next request the size works fine right away.
+New: TFU 3.2 included.
+Fix: Swipe was not working on elements with links. This means on the detail page swiping was not working over an image. Now a are excluded in the plugin and swiping should work now everywhere.
+Fix: Some virus scanner where reporting a file of TWG which included some encoded code as virus. This is a false alarm but the code was changed to avoid that TWG is blocked by your hoster. 
+Fix: The pagination on the thumbnail page was wrong if you mix folders and thumbnails
+Fix: Sorting for dates before 2000 (Length of the timestamp of 9)
+Fix: Disabling the captions was disabling the edit of folder.txt and foldername.txt in the menu. Now this feature still works when captions are not shown.
+Fix: iframe youtube and using a sorting prefix was not playing the first video.
+Fix: Direct folder.png was not shown in php include mode.
+Fix: Folder image was not shown when basedir was not default and SEO was enabled.
+
+2.1
+Fix: Important: Now Full IE11/IE10 support. The browser detection was not catching IE11/10 properly. Now IE11/10 are not running in compability mode anymore. You need php > 5.1.1 because the browser detection is used here.
+Fix: Slideshow does now work with multiline captions
+Fix: iframes of slideshow were increased slightliy to show the border on all browsers.
+Fix: Button up is now centered always on the thumbnail page.
+Fix: Iframe of slideshow is hidden until the iframe is loaded to avoid  
+
+2.0.7
+New: Album explorer does now show/hide with a nice slide effect. 
+Fix: Swipe direction was changed - swipe left does now show the next image which is like on any smartphone/tablet.
+Fix: Parameter isTablet was not always set.
+
+2.0.6
+Fix: Caption in the black skin was fixed.
+
+2.0.5
+New: Swipe support is now available for all smarthpones AND tablets! A real mobile detection is now included and a jquery plugin for swipes is used!
+Fix: Lightbox images where broken inside an iframe on some browsers. Now all tested browsers work fine.
+Fix: Private login links with seo enabled in the album tree are fixed. 
+Fix: Vertical images on top x are now centered. 
+
+2.0.4
+New: Enable/disable the whole mobile detection: $enable_mobile_detection  
+Fix: Speedtest fixed. Was broken because of the 404 crawling "+ loc +" fix. 
+
+2.0.3
+SEO: 404 crawling errors for subdirectories fixed. Not ~ is used in the url because encoded / are depending on the apache configuration blocked. See $album_sub_url_seo_character and the updated SEO howto 
+SEO: 404 crawling "+ loc +" error fixed. Caused that bot do not execute JS but only extract code.
+SEO: Added nofollow at the twg_reset_bandwidth link to avoid that boots reset the cache!
+Fix: License file was not read by the flash in the administration. Now this works fine again.
+
+2.0.2
+Fix: Enable basic seo in the administration had the default of the field above. Now the saved setting is preselected.
+Fix: Seo .htaccess file was changed slighly to support the new seo urls better.  
+ 
+2.0.1
+New: Edit support on the thumbnail page. Folder name (foldername.txt) and folder description (folder.txt) can be edited on the thumbnailpage now. 
+Fix: Changing of FLV/mp4 videos in dhtml/Ajax mode is now working again.
+
+2.0
+New: Support for search friendly urls. Please read the howto 44 for this. This feature is available for users of a professional liense.
+New: jQuery was updated to version 1.10.2.
+New: TFU 3.1 included.
+New: Swiping does now work on all mobile devices. Not only in fullscreen anymore.
+New: Added some media queries for mobile devices. So folder text and the powered by are shown differently when you make the browser smaller.
+SEO: Optimized duplicate meta description
+SEO: Optimized canonical tag
+Fix: Flash upload was logged out after an upload when $generate_cache_at_upload = false; Now it works again like excpected. 
+Fix: Workaround added for flv players when no image but sound is played.
+Fix: Rendering preview images with ffmpeg was brocken.
+Fix: $enable_smily_support=false; caused a rendering problem in comments and captions. Both pages look now how they should.
+Fix: Error message when thumbnails where created on the thumbnailpage was fixed.
+Fix: Slideup/down was removed because on small screens you need to scroll which was imposible with this function!
+Fix: back.png is now also rendered on the content div! This enables round corners with and also a background image!
+Fix: Colorpicker was fixed to work with css3 round corners.
+Fix: Many minor fixes
+
+
+1.9
+New: Fully compatible with php 5.4!
+New: TFU 3.0.3 included.
+New: All important <center> do have an id now. So you can easily e.g. float or text-align them.
+Security fix: Multiple Full Path Disclosure Vulnerabilities closed. This vulnerability has been discovered
+by Manuel Garcia Cardenas (mgarcia (at) isecauditors (dot) com). Thanks for finding this!
+New: $autocreate_folder_id is now true by default. folder.id is used to identify a folder even when you rename it. The warning in the administration has been improved!
+New: jQuery was updated to version 1.9.1.
+Fix: Perfect popup optimized. Does now work for Chrome as well.
+Fix: image.txt files with the size 0 caused a loop! Now this is checked before reading!
+Fix: when $sort_album_by_date was set to true and $sort_album was set to false the sorting prefix was added but not removed. Now $sort_album_by_date and $sort_album are checked both.
